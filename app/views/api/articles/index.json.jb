@@ -1,0 +1,10 @@
+@articles.map do |article|
+  {
+    id: article["id"],
+    type: article["type"],
+    section_id: article["sectionId"],
+    section_name: article["sectionName"],
+    web_title: article["webTitle"],
+    web_url: article["webUrl"]
+  }
+end 
